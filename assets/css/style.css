@@ -727,3 +727,33 @@ footer{
         height: 80vh;
     }
 }
+
+/* MOBILE */
+
+@media (max-width: 575.98px) { 
+    .NewGeneration {
+        width: 100%;
+        height: 50vh;
+        background-color: #F7F7F7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textNewGeneration p {
+        width: 80vw;
+    }
+
+    .twitterMainBox {
+        width: 100%;
+        height: 20%;
+        margin-bottom: 17vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textInEmailEnter {
+        width: 56vw;
+    }
+}
