@@ -1,0 +1,729 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*{
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0;
+        scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 70vh;
+    background: url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+}
+
+li a{
+    color: black;
+    margin: 50px;
+    font-size: 15px;
+}
+
+/* FIRST SECTION */
+
+.NewGeneration{
+    width: 100%;
+    height: 40vh;
+    background-color:#F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textNewGeneration{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textNewGeneration h2{
+    color: #323334;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.textNewGeneration p{
+    color: #B5B7B8;
+    line-height: 1.5;
+}
+
+.imgNewGeneration{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.mainNewGeneration{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* VINTAGE OLIVA */
+
+
+.VintageOliva{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.BicycleBg{
+    width: 60%;
+    height: 100%;
+    background:url(../img/left-box-1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainVintageOliva{
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottomVintageOliva{
+    width: 100%;
+    height: 40vh;
+    background: url(../img/seat-red.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mainRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.MainVintageOlivaText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+.MainVintageOlivaText h2{
+    color: #323334;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 3vh;
+    margin-bottom: 15px;
+}
+
+.MainVintageOlivaText p{
+    color: #B5B7B8;
+    line-height: 1.5;
+}
+
+.imgBottomVintageOliva{
+    display: flex;
+    justify-content: center;
+    margin-top: -2px;
+}
+
+
+/* La BORIOSA */
+
+.LaBoriosa{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.BicycleBg2{
+    width: 60%;
+    height: 100%;
+    background:url(../img/left-box-2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LaBoriosa{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.bottomLaBoriosa{
+    width: 100%;
+    height: 40vh;
+    background: url(../img/seat-black.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* RETRO BIKE */
+
+.RetroBike{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.zoomRedBike{
+    width: 40%;
+    height: 100%;
+    background:url(../img/red-frame.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomRetroBike{
+    width: 100%;
+    height: 40vh;
+    background: url(../img/chrome-wheels.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.imgBottomLaBoriosa{
+    display: flex;
+    justify-content: center;
+    margin-top: -2px;
+}
+
+.imgRedBike{
+    height: 100%;
+    width: 20vw;
+    background: url(../img/red-bike.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mainBottom{
+    display: flex;
+}
+
+@media (min-width: 1920px) { 
+    .zoomRedBike {
+        width: 42%;
+    }
+}
+
+/* TWITTER SECTION */
+
+.twitterSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterBox{
+    width: 50%;
+    height: 80vh;
+}
+
+.twitterMainBox{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textTwitterBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textTwitterBox h3{
+    margin-bottom: 3vh;
+}
+
+.textTwitterBox span{
+    color: #B5B7B8;
+    font-weight: 200;
+    padding-left: 5px;
+}
+
+
+.textTwitterBox p{
+    text-align: center;
+    color: #B5B7B8;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.Twitter{
+    margin-bottom: 3vh;
+}
+
+/* GALLERIE IMG */
+
+.galerieImg{
+    width: 100%;
+    height: 55vh;
+}
+
+.mainGalerieImg{
+    display: flex;
+}
+
+.leftGalerieImg{
+    width: 40%;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inLeftImgGalerie{
+    width: 50%;
+    height: 50%;
+    background: url(../img/l1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.inRightImgGalerie{
+    width: 50%;
+    height: 50%;
+    background: url(../img/l2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.inBottomImgGalerie{
+    width: 100%;
+    height: 50%;
+    background: url(../img/l3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.midleImgGalerie{
+    width: 20%;
+    height: 55vh;
+}
+
+.inMidleImgGalerie{
+    display: flex;
+}
+
+.inMidleImgGalerieLeft{
+    width: 10vw;
+    height: 55vh;
+    background: url(../img/l4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.inMidleImgGalerieRight{
+    width: 10vw;
+    height: 55vh;
+    background: url(../img/l5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.rightGalerieImg{
+    width: 40%;
+    height: 55vh;
+}
+
+
+.inRightGalerieImgLeft{
+    width: 100%;
+    height: 27.5vh;
+    background: url(../img/l6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.inRightGalerieImgRight{
+    width: 100%;
+    height: 27.5vh;
+    display: flex;
+}
+
+.inRightGalerieImgRightLeft{
+    width: 50%;
+    height: 100%;
+    background:url(../img/l7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.inRightGalerieImgRightRight{
+    width: 50%;
+    height: 100%;
+    background:url(../img/l8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* DISCOVER SHOP */
+
+.discoverShop{
+    width: 100%;
+    height: 12vh;
+    background-color: #282F35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btnDiscoverShop{
+    padding: 10px 50px;
+    border: 1px solid #B5B7B8;
+}
+
+.btnInDiscoverShop{
+    color: white;
+}
+
+
+/* EMAIL */
+
+
+.emailEnter{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inEmailEnter{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.textInEmailEnter p{
+    font-style: italic;
+    padding: 3vh;
+    color: #B5B7B8;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.formInEmailEnter{
+    display: flex;
+    align-items: center;
+}
+
+.formInEmailEnter input{
+    width: 13vw;
+    height: 5vh;
+    padding-left: 20px;
+    border: solid 1px #D5D8DA;
+    font-style: italic;
+    display: flex;
+}
+
+.btnInForm{
+    padding: 1.8vh 2.5vw;
+    background-color: #64C29E;
+    color: white;
+    margin-left: 2px;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.mainInFooter p{
+    color: #818587;
+}
+
+.mainInFooter{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainTextInFooter{
+    display: flex;
+}
+
+.textLeftInFooter p{
+    line-height: 2;
+}
+
+.textRightFooter p{
+    display: flex;
+    align-items: center;
+    line-height: 2;
+}
+
+.iconFooter{
+    padding: 10px;
+}
+
+.logoInFooter{
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+.yeboIconInFooter{
+    margin-left: 10px;
+}
+
+.spanLeftInFooter{
+    font-weight: bold;
+}
+
+.emailInFooter{
+    color: black;
+}
+
+.MyselfSpan{
+    font-style: italic;
+
+}
+
+.textRightFooter{
+    font-style: italic;
+}
+
+/* TABLET */
+
+@media (max-width: 991.98px) { 
+    li{
+        display: none;
+    }
+
+    .textNewGeneration p {
+        width: 70vw;
+    }
+
+    .leftGalerieImg {
+        width: 100%;
+    }
+
+    .mainGalerieImg {
+        flex-direction: column;
+    }
+
+    .midleImgGalerie {
+        width: 100%;
+    }
+
+    .inMidleImgGalerieLeft {
+        width: 50%;
+    }
+
+    .inMidleImgGalerieRight{
+        width: 50%;
+    }
+
+    .rightGalerieImg {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .galerieImg{
+        margin-bottom: 109vh;
+    }
+
+    .MainVintageOlivaText {
+        width: 60vw;
+    }
+
+    .BicycleBg {
+        width: 100%;
+    }
+
+    .VintageOliva {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MainVintageOliva {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    .mainRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .VintageOliva {
+        width: 100%;
+        height: 105vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .LaBoriosa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .LaBoriosa {
+        width: 100%;
+        height: 105vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .BicycleBg2 {
+        width: 100%;
+    }
+
+    .RetroBike {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgRedBike {
+        height: 100%;
+        width: 20vw;
+        background: url(../img/red-bike.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .RetroBike {
+        width: 100%;
+        height: 138vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zoomRedBike {
+        width:100%;
+        background: url(../img/red-frame.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgRedBike {
+        height: 100%;
+        width: 100%;
+        background: url(../img/red-bike.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .formInEmailEnter input {
+        width: 50vw;
+        height: 5vh;
+        padding-left: 20px;
+        border: solid 1px #D5D8DA;
+        font-style: italic;
+        display: flex;
+    }
+
+    .btnInForm {
+        padding: 1.8vh 6.5vw;
+        background-color: #64C29E;
+        color: white;
+        margin-left: 2px;
+    }
+
+    .textInEmailEnter{
+        width: 32vw;
+    }
+
+    .mainInFooter {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mainTextInFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2vh;
+    }
+
+    .mainTextInFooter p {
+        text-align: center;
+    }
+
+    .textRightFooter {
+        font-style: italic;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoInFooter {
+        margin-right: 20vw;
+        margin-left: 20vw;
+        margin-top: 2vh;
+    }
+
+    footer {
+        width: 100%;
+        height: 38vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F7F7F7;
+    }
+
+    .twitterBox {
+        width: 74%;
+        height: 80vh;
+    }
+}
